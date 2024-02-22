@@ -1,0 +1,28 @@
+body{
+   color: #fff;
+   background-color: #000;
+   
+    
+    
+ 
+}
+
+.content{
+   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.ball{
+   background-image: url(../img/ball.png);
+   margin: 0;
+   position: absolute;
+   width: 150px;
+   height: 150px;
+   transform: rotateX(var(--move-x)) rotateY(var(--move-y)) ;
+}
+#output{
+   font-family: Arial, Helvetica, sans-serif;
+   
+   margin-top: 15em;
+}
